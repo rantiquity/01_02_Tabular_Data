@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: 'rantiquity/01_02_Tabular_Test'
-          token: ${{ secrets.TESTS_DOWNLOAD_TOKEN }}
+          token: ${{ secrets.Download-HW2-Tests }}
 
       # 3. Разворачиваем среду R
       - name: Set up R
