@@ -14,7 +14,7 @@ jobs:
       - name: Fetch hidden tests
         uses: actions/checkout@v4
         with:
-          repository: 'rantiquity/hw-2-tests'
+          repository: 'rantiquity/01_02_Tabular_Test'
           token: ${{ secrets.TESTS_DOWNLOAD_TOKEN }}
 
       # 3. Разворачиваем среду R
