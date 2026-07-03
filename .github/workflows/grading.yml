@@ -8,11 +8,11 @@ jobs:
     steps:
       # 1. Скачиваем код, который отправил студент
       - name: Checkout student code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # 2. Скачиваем скрытые тесты из вашего приватного репозитория hw1-tests
       - name: Fetch hidden tests
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: 'rantiquity/01_02_Tabular_Test'
           token: ${{ secrets.TESTS_DOWNLOAD_TOKEN }}
